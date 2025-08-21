@@ -1,0 +1,93 @@
+/* Login */
+.login-container {
+  flex-direction: column  ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: #ffffff;
+  font-family: sans-serif;
+}
+
+.login-box {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 123, 255, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 0.5rem;
+  color: #003366;
+}
+
+.login-box .subtitle {
+  color: #666;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.login-box form {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-box label {
+  display: block;
+  margin: 1rem 0 0.25rem;
+  color: #003366;
+  font-weight: 500;
+}
+
+.login-box input {
+  width: 350px;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.full-width {
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 1rem;
+  border: none;
+  margin-top: 1.5rem;
+  background-color: #0056b3;
+  color: white;
+}
+.full-width:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.signup-link {
+  margin-top: 1.5rem;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.signup-link a {
+  color: #1e88e5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.btn-blue{
+  text-align: center;
+}
